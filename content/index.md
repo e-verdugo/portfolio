@@ -6,7 +6,7 @@ Description: Lite information om vem jag är.
 Om mig
 ==========================
 
-![En tornuggla i en butik full med blommor. Ugglan sitter på axeln av en skrattande tjej med långt brunt hår och glasögon.](assets/img/jagmedbarney.jpg "Ugglan Barney och mig") {.small}
+![En tornuggla i en butik full med blommor. Ugglan sitter på axeln av en skrattande tjej med långt brunt hår och glasögon.](assets/img/jagmedbarney.jpg "Ugglan Barney och mig") {.side}
 
 Tja! Jag heter Emelie och går båda kurspaketen. Det ska bli spännande att börja med den här designkursen för jag känner att sidorna som jag skapade för webtec-kursen såg lite väl tråkiga ut.
 

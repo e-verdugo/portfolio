@@ -64,13 +64,13 @@ img {
     .logo {
         max-width: 30%;
     }
-    img.small {
+    img.side {
         max-width: 50%;
         margin-left: 1em;
     }
 }
 
-img.small {
+img.side {
     max-width: 30%;
     float: right;
     margin-left: 3em;

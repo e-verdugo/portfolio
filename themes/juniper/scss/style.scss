@@ -1,0 +1,157 @@
+@import '../../node_modules/normalize.css/normalize';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import '../../shared/css/font-awsome.min.css';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+
+* {
+    color: $font-color;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover,
+a:focus,
+a:active,
+a:visited,
+a:link {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+    padding: 2em;
+    background: $main-background-color;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+    margin: 1em;
+    padding: 1em;
+}
+
+/* Header */
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Title */
+
+.title,
+.logo {
+    padding: 3em 3em 3em 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.side {
+    max-width: 40%;
+    float: right;
+    margin-left: 1em;
+}
+
+.title * {
+    color: #111;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+}
+
+.footer a {
+    color: #222;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+/* Typography */
+
+body {
+    line-height: 1.5rem;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}

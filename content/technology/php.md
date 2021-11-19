@@ -1,0 +1,33 @@
+---
+Template: technologies
+---
+<section class="technologies">
+<div class="sidebar">
+<a href="css">CSS</a><br>
+<a href="git">GIT</a><br>
+<a href="html">HTML</a><br>
+<a href="javascript">JavaScript</a><br>
+<a href="php">PHP</a><br>
+<a href="python">Python</a><br>
+<a href="sqlite">SQLite</a><br>
+</div>
+<div class="content">
+<h1>PHP</h1>
+
+PHP är ett populärt skriptspråk som främst används för att skapa webbplatser med dynamiskt innehåll. PHP är det mest använda server-side programmeringsspråk på webben med uppåt 80% av alla webbplatser som använder det.
+
+PHP är ett objekt-orienterad programmeringsspråk, som med senare versioner kan vara hård typat och till och med JIT.
+
+Ett program som skriver ut alla jämna siffror mellan 1 och 100 kan se ut på följande sätt i JavaScript:
+
+<pre>
+&lt;?php
+for ($i = 1; $i &lt;= 100; $i++) {
+    if (!($i % 2)) {
+        print($i);
+    }
+}
+</pre>
+</div>
+</section>
+

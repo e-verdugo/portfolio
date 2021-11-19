@@ -9,6 +9,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'variables';
 @import 'blockquotes';
 @import 'code';
+@import 'technology';
 
 * {
     color: $font-color;
@@ -53,6 +54,16 @@ body {
     flex: 1 0 auto;
     padding: 2em;
     background: $main-background-color;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 25px;
+}
+
+//for smaller screens
+@media (max-width: 1200px) {
+    .main {
+        margin: 0%;
+    }
 }
 
 .header,
@@ -97,7 +108,7 @@ img {
 }
 
 .side {
-    max-width: 40%;
+    max-height: 500px;
     float: right;
     margin-left: 1em;
 }
@@ -133,7 +144,7 @@ img {
 /* Typography */
 
 body {
-    line-height: 1.5rem;
+    line-height: 2em;
 }
 
 p,
@@ -144,6 +155,7 @@ dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    margin: 0.8em;
 }
 
 h1,
@@ -154,4 +166,10 @@ h5,
 h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
+}
+
+pre {
+    margin: 1em;
+    word-break: break-all;
+    white-space: pre-wrap;
 }

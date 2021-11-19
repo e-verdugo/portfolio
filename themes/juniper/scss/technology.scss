@@ -1,0 +1,93 @@
+.landingpage {
+    display: grid;
+    gap: 2% 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+    grid-row: 1 / 1;
+}
+
+
+.landingpage .technologies {
+    display: flex;
+    flex-direction: row;
+    gap: 12%;
+}
+
+.landingpage .tech {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 12px 12px 2px 1px rgba(50, 50, 240, 0.2);
+    background-color: rgb(255, 235, 205);
+    height: 150px;
+    margin: 1em;
+    padding: 1em;
+    min-width: 150px;
+}
+
+.landingpage .invis {
+    height: 30px;
+    margin: 1em;
+    min-width: 150px;
+}
+
+.landingpage .sidebar {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 12px 12px 2px 1px rgba(50, 50, 240, 0.2);
+    background-color: rgb(255, 235, 205);
+    padding: 2em;
+    height: 300px;
+}
+
+.landingpage .content {
+    background-color: rgb(255, 235, 205);
+    padding: 2em;
+    margin-right: 12%;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+//for smaller screens
+@media (max-width: 1200px) {
+    .landingpage {
+        margin: 0%;
+    }
+
+    .landingpage .tech {
+        min-width: 140px;
+    }
+
+    .landingpage .content {
+        margin: 0;
+    }
+}
+
+//for mobile
+@media (max-width: 600px) {
+    .landingpage {
+        width: 100%;
+    }
+
+    .landingpage h1 {
+        grid-column: span 1;
+    }
+
+    .landingpage .tech {
+        width: 100%;
+        margin: 0;
+    }
+
+    .landingpage .sidebar {
+        display: none;
+    }
+
+    .landingpage .content {
+        margin: 0;
+        max-width: 100%;
+    }
+}

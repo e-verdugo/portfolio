@@ -1,12 +1,12 @@
 @import '../../node_modules/normalize.css/normalize';
-@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import '../../shared/css/font-awsome.min.css';
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
-@import 'variables';
+@import 'dark-variables';
 @import 'blockquotes';
 @import 'code';
 @import 'technology';
@@ -84,6 +84,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
 }
+
 
 .nav a {
     color: $accent;

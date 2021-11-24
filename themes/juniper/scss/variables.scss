@@ -1,3 +1,8 @@
 $font-color: rgb(20, 20, 20);
-$background-color: rgba(115, 255, 0, 0.2);
-$main-background-color: linear-gradient(0deg, rgba(27, 255, 0, 0.5) 0%, rgba(255, 240, 0, 0.5) 100%);
+$font-fam: 'Varela', sans-serif;
+$accent: #cc45f7; //needs to be strong and stick out
+$secondary-accent: #a29bd1; //darkest of the bunch (is shadows)
+$secondary-fields: #c2f55f; //strong but not eye-hurty (medum large fields)
+$tertiary-fields: #f5f10a; //strong but not eye-hurty, somewhat in contrast with secondary fields
+$background-color: #f7f0c1; //soft and not eye-hurty
+$main-background-color: linear-gradient(0deg, $secondary-fields 0%, $tertiary-fields 100%);

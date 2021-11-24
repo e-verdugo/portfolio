@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import '../../shared/css/font-awsome.min.css';
 html {
   line-height: 1.15;
@@ -6457,15 +6457,15 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #a29bd1;
+  border-left: 0.5em solid #370252;
 }
 
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #a29bd1;
+  border: 1px solid #370252;
   border-radius: 0.3em;
-  background: #f5f10a;
+  background: #4b0bd6;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6473,9 +6473,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #a29bd1;
+  border: 1px solid #370252;
   border-radius: 0.3em;
-  background: #f5f10a;
+  background: #4b0bd6;
 }
 
 pre code {
@@ -6508,10 +6508,10 @@ pre code {
 }
 
 .landingpage .tech {
-  border: 3px solid #a29bd1;
+  border: 3px solid #370252;
   border-radius: 5px;
-  box-shadow: 12px 12px 2px 1px #a29bd1;
-  background-color: #c2f55f;
+  box-shadow: 12px 12px 2px 1px #370252;
+  background-color: #43009c;
   height: 150px;
   margin: 1em;
   padding: 1em;
@@ -6525,17 +6525,17 @@ pre code {
 }
 
 .landingpage .sidebar {
-  border: 3px solid #a29bd1;
+  border: 3px solid #370252;
   border-radius: 5px;
-  box-shadow: 12px 12px 2px 1px #a29bd1;
-  background-color: #c2f55f;
+  box-shadow: 12px 12px 2px 1px #370252;
+  background-color: #43009c;
   padding: 2em;
   height: 300px;
 }
 
 .landingpage .content {
-  background-color: #c2f55f;
-  border: 3px solid #a29bd1;
+  background-color: #43009c;
+  border: 3px solid #370252;
   padding: 2em;
   margin-right: 12%;
   margin-top: 150px;
@@ -6579,8 +6579,8 @@ pre code {
   }
 }
 * {
-  color: #141414;
-  font-family: "Varela", sans-serif;
+  color: white;
+  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
   border: 0 none;
   margin: 0;
@@ -6611,7 +6611,7 @@ body {
 
 /* Placement */
 body {
-  background-color: #f7f0c1;
+  background-color: #0e001a;
   display: flex;
   flex-direction: column;
 }
@@ -6619,7 +6619,7 @@ body {
 .main {
   flex: 1 0 auto;
   padding: 2em;
-  background: linear-gradient(0deg, #c2f55f 0%, #f5f10a 100%);
+  background: linear-gradient(0deg, #43009c 0%, #4b0bd6 100%);
   margin-left: 15%;
   margin-right: 15%;
   border-radius: 25px;
@@ -6699,14 +6699,14 @@ img {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #cc45f7;
-  background-color: #c2f55f;
+  background-color: #43009c;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
 }
 
 .footer a {
-  color: #c2f55f;
+  color: #43009c;
 }
 
 .footer .social {

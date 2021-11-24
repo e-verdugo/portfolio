@@ -1,5 +1,5 @@
 ---
-Title: Tekniker
+Title: Info
 Description: Vilka tekniker som används
 ---
 

@@ -20,14 +20,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     padding: 0;
 }
 
-a:hover,
-a:focus,
-a:active,
-a:visited,
-a:link {
-    text-decoration: none;
-}
-
 ol,
 ul {
     padding-left: 1.5em;
@@ -169,6 +161,15 @@ dd {
     overflow-wrap: break-word;
     word-wrap: break-word;
     margin: 0.8em;
+}
+
+a:hover,
+a:focus,
+a:active,
+a:visited,
+a:link {
+    text-decoration: none;
+    color: $accent;
 }
 
 h1,

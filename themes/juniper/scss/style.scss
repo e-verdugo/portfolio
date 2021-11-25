@@ -1,5 +1,5 @@
 @import '../../node_modules/normalize.css/normalize';
-@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
 @import '../../shared/css/font-awsome.min.css';
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
@@ -18,14 +18,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     border: 0 none;
     margin: 0;
     padding: 0;
-}
-
-a:hover,
-a:focus,
-a:active,
-a:visited,
-a:link {
-    text-decoration: none;
 }
 
 ol,
@@ -168,6 +160,16 @@ dd {
     overflow-wrap: break-word;
     word-wrap: break-word;
     margin: 0.8em;
+}
+
+
+a:hover,
+a:focus,
+a:active,
+a:visited,
+a:link {
+    text-decoration: none;
+    color: $accent;
 }
 
 h1,

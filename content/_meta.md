@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/cat-icon.png
+Logo: image/cat-icon.png?w=300&h=300&crop-to-fit
 Tagline: Min portfolio
 Social:
     - title: Github

@@ -38,7 +38,7 @@ För Encyclopedia har jag valt att mäta dessa sidor:
 Analys
 -----------------------
 Här är rådatan från min undersökning av sidornas tider och betyg:
-<iframe class="calcDoc" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSszQFA2mGBlblWFumqPY5dEmYe3k83uQNlrOwXGmZEcRQ9O2VbBgMR5Uq6zH2Mg3okIbZWAqR_GRtV/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe class="calcdoc" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSszQFA2mGBlblWFumqPY5dEmYe3k83uQNlrOwXGmZEcRQ9O2VbBgMR5Uq6zH2Mg3okIbZWAqR_GRtV/pubhtml?widget=true&amp;headers=false" title="embedded calc doc"></iframe>
 
 Av alla sidor, så använde DBWebb minst resurser som behövde hämtas, vilket drog ner på laddningstiderna. Sidorna var också de minsta. Tvåa kom Encyclopedia med 16 resurser på alla sidor, vilka alla också hade ungefär samma storlek. Wikipedia var störst, vilket var någolunda väntat då artiklarna var störst och hade flest bilder/resurser.
 
